@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:bx="https://boxy-svg.com">
+
+
+<defs>
+<g id ="trojkat">
+ <path d="M 405 595 L 445 360 L 485 595 Z"/>
+</g>
+  <g id="spinah" style="transform-origin: 445px 360px;">
+
+<path d="M 250 360 L 340 360 Z" style="stroke: rgb(0, 0, 0); paint-order: fill; fill: none; transform-box: fill-box; transform-origin: 50% 50%;">
+      <animateTransform type="rotate" additive="sum" attributeName="transform" values="0;360" begin="0s" dur="2s" fill="freeze" repeatCount="indefinite" keyTimes="0; 1"/>
+</path>
+<path d="M 295 405 L 295 315 Z" style="stroke: rgb(0, 0, 0); paint-order: fill; fill: none; transform-box: fill-box; transform-origin: 50% 50%;">
+      <animateTransform type="rotate" additive="sum" attributeName="transform" values="0;360" begin="0s" dur="2s" fill="freeze" repeatCount="indefinite" keyTimes="0; 1"/>
+</path>
+<path d="M 265 328 L 327 392 Z" style="stroke: rgb(0, 0, 0); paint-order: fill; fill: none; transform-box: fill-box; transform-origin: 50% 50%;">
+      <animateTransform type="rotate" additive="sum" attributeName="transform" values="0;360" begin="0s" dur="2s" fill="freeze" repeatCount="indefinite" keyTimes="0; 1"/>
+</path>
+<path d="M 265 392 L 327 328 Z" style="stroke: rgb(0, 0, 0); paint-order: fill; fill: none; transform-box: fill-box; transform-origin: 50% 50%;">
+      <animateTransform type="rotate" additive="sum" attributeName="transform" values="0;360" begin="0s" dur="2s" fill="freeze" repeatCount="indefinite" keyTimes="0; 1"/>
+</path>
+
+
+<path d="M 550 360 L 640 360 Z" style="stroke: rgb(0, 0, 0); paint-order: fill; fill: none; transform-box: fill-box; transform-origin: 50% 50%;">
+      <animateTransform type="rotate" additive="sum" attributeName="transform" values="0;360" begin="0s" dur="2s" fill="freeze" repeatCount="indefinite" keyTimes="0; 1"/>
+</path>
+<path d="M 595 405 L 595 315 Z" style="stroke: rgb(0, 0, 0); paint-order: fill; fill: none; transform-box: fill-box; transform-origin: 50% 50%;">
+      <animateTransform type="rotate" additive="sum" attributeName="transform" values="0;360" begin="0s" dur="2s" fill="freeze" repeatCount="indefinite" keyTimes="0; 1"/>
+</path>
+<path d="M 565 328 L 627 392 Z" style="stroke: rgb(0, 0, 0); paint-order: fill; fill: none; transform-box: fill-box; transform-origin: 50% 50%;">
+      <animateTransform type="rotate" additive="sum" attributeName="transform" values="0;360" begin="0s" dur="2s" fill="freeze" repeatCount="indefinite" keyTimes="0; 1"/>
+</path>
+<path d="M 565 392 L 627 328 Z" style="stroke: rgb(0, 0, 0); paint-order: fill; fill: none; transform-box: fill-box; transform-origin: 50% 50%;">
+      <animateTransform type="rotate" additive="sum" attributeName="transform" values="0;360" begin="0s" dur="2s" fill="freeze" repeatCount="indefinite" keyTimes="0; 1"/>
+</path>
+<animateTransform type="rotate" additive="sum" attributeName="transform" values="0;360" begin="0s" dur="5s" fill="freeze" repeatCount="indefinite" keyTimes="0; 1"/>
+
+
+
+    <rect x="295" y="350" width="300" height="20" style="fill: rgb(255, 0, 0); transform-origin: 50% 50%;">
+</rect>
+
+
+
+
+    <path d="
+M 
+250 347
+L 
+263 328
+L 
+282 315
+L 
+308 315
+L
+327 328
+L 
+340 347
+L 
+340 373
+L 
+327 392
+L 
+308 405
+L 
+282 405
+L 
+263 392
+L 
+250 373
+Z" style="stroke: rgb(0, 0, 0); paint-order: fill; fill: none; transform-box: fill-box; transform-origin: 50% 50%;">
+      <animateTransform type="rotate" additive="sum" attributeName="transform" values="0;360" begin="0s" dur="2s" fill="freeze" repeatCount="indefinite" keyTimes="0; 1"/>
+    </path>
+
+
+  <path d="
+M 
+550 347
+L 
+563 328
+L 
+582 315
+L 
+608 315
+L
+627 328
+L 
+640 347
+L 
+640 373
+L 
+627 392
+L 
+608 405
+L 
+582 405
+L 
+563 392
+L 
+550 373
+Z" style="stroke: rgb(0, 0, 0); paint-order: fill; fill: none; transform-box: fill-box; transform-origin: 50% 50%;">
+      <animateTransform type="rotate" additive="sum" attributeName="transform" values="0;360" begin="0s" dur="2s" fill="freeze" repeatCount="indefinite" keyTimes="0; 1"/>
+    </path>
+
+
+
+
+     </g>
+</defs>
+
+<use xlink:href = "#spinah" />
+<use xlink:href = "#trojkat" fill="blue" />
+
+<use xlink:href = "#spinah"  transform = "translate(-170,-130) scale(0.8,0.8) "/>
+<use xlink:href = "#trojkat" fill="purple" transform = "translate(-170,-130) scale(0.8,0.8) "/>
+
+<use xlink:href = "#spinah"  transform = "translate(450,-50) scale(0.5,0.5) "/>
+<use xlink:href = "#trojkat" fill="green" transform = "translate(450,-50) scale(0.5,0.5) "/>
+
+
+  </svg>
